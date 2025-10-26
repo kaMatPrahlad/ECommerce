@@ -12,6 +12,8 @@ function App() {
           <Route path="/mens" element={<ShopCategory category="mens" />} />
           <Route path="/womens" element={<ShopCategory category="womens" />} />
           <Route path="/kids" element={<ShopCategory category="kids" />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/productId" element={<Product />} />
         </Routes>
       </BrowserRouter>
     </div>
