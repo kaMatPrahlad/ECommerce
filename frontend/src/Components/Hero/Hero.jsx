@@ -23,7 +23,7 @@ const Hero = () => {
         <img src={arrow_icon} alt="" height="30px" />
       </div>
       <div className="hero-right">
-        <img src={men} alt="" height="30px" />
+        <img src={men} alt="" height="200px" />
       </div>
     </div>
   );
